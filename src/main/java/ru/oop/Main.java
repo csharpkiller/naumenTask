@@ -23,6 +23,7 @@ public class Main {
     public static void moveTo(Person person, Position destination) {
         Car audiA8 = new Car(person);
         audiA8.moveTo(destination);
+        person.setPosition(audiA8.getActualPersonPosition());
 
         if(!person.getPosition().equals(destination)){
             person.walk(destination);

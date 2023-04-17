@@ -11,4 +11,9 @@ public class Car {
     public void moveTo(Position position){
         //TODO
     }
+
+    public Position getActualPersonPosition(){
+        //TODO
+        return null;
+    }
 }
